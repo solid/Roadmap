@@ -83,8 +83,7 @@ It might be worth looking into market research to see what the most popularly us
 Such as those listed [here](https://github.com/solid/research-topics)
 
 ## non-technical roadmap items
- - Establishing studentships to bring people students into
- - 
+ - Establishing studentships to bring people students into the space
 
 ## Cataloging support
  - Get admin support to help maintian the [Solid Catalog](https://github.com/solid-contrib/catalog)
