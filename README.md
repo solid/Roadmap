@@ -49,6 +49,9 @@ Solid currently suffers from a lack of open-source applications with good lookin
 3. Improving the UX of existing applications such as:  
    1. SolidOS ([https://solidos.solidcommunity.net/](https://solidos.solidcommunity.net/))  
    2. Some of the applications listed [here](https://solidproject.org/apps).
+4. Write integrations to make Solid accessible in the cases you commonly see Dropbox / GDrive, such as:
+   1. The "locations" tab on your finder/file application on Mac or PC
+   2. As a vscode extension (already started, but needs support https://github.com/jeswr/vscode-extension-solidfs)
 
 Notes on the choice of platform:
  - Jackson M: I did a bit of research into webflow, and I'm not sure we'd be able to have a great Solid solution. From the looks of it, Webflow is mostly targeted at static stites. There is an add-on to Webflow called "Wized," that lets you build web apps with a backend. They have 4 options for backends (Airtable, Stripe, Canonic, Xano), and from what I can tell those are hard-coded. There's no way to add i/''
