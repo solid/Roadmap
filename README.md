@@ -4,6 +4,14 @@ The goal of this document is to act as a high-level overview of the broad topics
 
 Open to contributions and comments.
 
+## Proposed topics to address with priority within the CG
+ - (Standardising) static client credentials
+ - Standardising Query
+ - Agreeing on the form of interop specs (hopefully, there will be some alignment in the STM)
+ - Work on proposed standards changes for AP/Matrix alignment
+
+Feedback loop from use cases: Support is needed to feedaback from lws-ucs and work taking place in the practitioners group.
+
 ## Development of Data Interop specs
 
 One of the core promises of Solid has been to decouple applications from their data, thus allowing disparate Web applications to interoperate. That is, allowing such Web applications to share and re-use the same user data. To make this possible applications must have either (1) common data schemas or (2) data schemas between which there is a well-known mapping. This is a challenge that has also been identified by the NLnet-funded [Solid Application Interoperability work](https://nlnet.nl/project/Solid-Interop/). 
@@ -58,13 +66,15 @@ Notes on the choice of platform:
 ...add support for a new backend. There's no library or package system that we could put a Solid component on.
 They do have the ability to implement REST calls from scratch, but the developer would need to manually do that.
 
-## Education / onboarding materials for Solid
-It is really hard to get and retain good developers working on Solid. There are many reasons for this, one of which is that there are poor training materials on how to get started in terms of navigating the community, developer materials etc. We need to develop a good onboarding flow for Solid in order to make it easier to bring in new talent at scale. This includes making it easy to bring on open source developers who are wanting to work on the projects at different time scales, e.g.:
+## Education/onboarding materials for Solid
+It is really hard to get and retain good developers working on Solid. There are many reasons for this, one of which is that there are poor training materials on how to get started in terms of navigating the community, developer materials etc. We need to develop a good onboarding flow for Solid in order to make it easier to bring in new talent at scale. This includes making it easy to bring on open-source developers who want to work on the projects at different time scales, e.g.:
 
 - Here are the bugs you can work on if you’re not sure that you will be able to contribute for more than a couple of weeks  
 - Here is how you can take a level of leadership in the project should you choose to (e.g. help provide ongoing maintenance to a core repo, triage issues etc.).
 
 We are not the first project to be doing *any* of these things, IETF for instance has good processes that can be replicated.
+
+Note that [this repo](https://github.com/solid/education) has been created as a place to collate educational materials for Solid.
 
 ## Opportunities: Integration with other efforts
 
